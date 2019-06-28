@@ -9,6 +9,10 @@
  *     }
  * }
  */
+
+// https://leetcode.com/problems/linked-list-cycle-ii/discuss/44893/My-two-cents-still-O(1)-memory-and-O(n)-time
+
+
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         ListNode a = head;
